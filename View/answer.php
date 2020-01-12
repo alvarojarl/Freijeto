@@ -29,36 +29,21 @@
   </head>
   <body>
     <div class="jumbotron">
-      <h1>Maximazed</h1>
+      <h1>Dados</h1>
     </div>
-    <div class="adjust">
-      <form class="" action="../Control/control.php" method="post">
-          <div class="background">
-            <input type="text" name="nameFarm" value="" placeholder="Nome">
-          </div>
-          <div class="">
-            <input type="text" name="socialState" value="" placeholder="Razão Social">
-          </div>
-          <div class="">
-            <input type="text" name="city" value="" placeholder="Cidade">
-          </div>
-          <div class="">
-            <input type="text" name="CNPJ" value="" placeholder="CNPJ">
-          </div>
-          <div class="">
-            <input type="text" name="CEP" value="" placeholder="CEP">
-          </div>
-          <div class="">
-            <input type="text" name="telephone" value="" placeholder="Telefone">
-          </div>
-          <div class="">
-            <input type="text" name="email" value="" placeholder="E-mail">
-          </div>
-          <div class="">
-            <input type="submit" name="" value="Submit">
-          </div>
-        </form>
-      </div>
+    <p>
+      <ul>
+        <?php
+        echo "<li>Nome : ".$_GET['nameFarm']."</li>";
+        echo "<li>Razão Social : ".$_GET['socialState']."</li>";
+        echo "<li>Cidade : ".$_GET['city']."</li>";
+        echo "<li>CNPJ : ".$_GET['CNPJ']."</li>";
+        echo "<li>CEP : ".$_GET['CEP']."</li>";
+        echo "<li>Telefone : ".$_GET['telephone']."</li>";
+        echo "<li>E-mai : ".$_GET['email']."</li>";
+        ?>
+      </ul>
+    </p>
     <footer class="page-footer font-small blue">
     </footer>
   </body>

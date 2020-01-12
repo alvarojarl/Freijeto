@@ -1,0 +1,16 @@
+{
+    "name": "alvar/frej",
+    "description": "descent",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alvaro Luis Franca da Silveira",
+            "email": "alvaro.13455@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "twbs/bootstrap": "dev-master"
+    }
+}
